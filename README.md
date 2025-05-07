@@ -1,5 +1,5 @@
-# Matrix Line Ordering Exercise
-Matrix Line Ordering Exercise
+# People Ordering Exercise
+People Ordering Exercise
 
 # Identificação
 Nome: <Seu Nome?>
@@ -7,55 +7,45 @@ Nome: <Seu Nome?>
 Matrícula: <Sua Matrícula>
 
 # Instruções
-Neste exercício você deve escrever uma função que recebe um número inteiro n (indicando a ordem da matriz), uma sequência de n^2 números reais (a_1 a_2 ... a_n\*n - n linhas com n valores cada). O seu algoritmo precisa trocar as linhas de forma que a primeira coluna esteja ordenada de forma crescente (em caso de igualdade, os valores das próximas colunas devem ser considerados, a linha com o menor número na proxíma coluna deve vir antes).
+Uma pessoa contém três informações (Nome, idade, altura).
 
-1. Altere este Readme para conter o seu nome e matrícula.
-2. Modifique a função dentro do arquivo student.c
+Neste exercício você deve escrever uma função que recebe um número inteiro n (indicando a quantidade de pessoas que serão lidas), uma sequência de n informações de pessoas (P_1 P_2 ... P_n - n pessoas com nome, idade e altura). O seu algoritmo deve imprimir as pessoas em ordem crescente - devem ser considerados idade, altura, ordem na lista inicial como critérios de ordenação.
 
-# Exemplos
-1. Exemplo 1\
+1. Altere este Readme para conter seu nome e matrícula.
+2. Altere o arquivo student.c
+
+# Exemplo 1\
 Entrada:\
-3\
-2.0 4.0 6.0\
-7.0 8.0 9.0\
-1.0 3.0 5.0
 
-O seu objetivo é fazer as trocas de linhas e retorna-la ordenada, Saída:
+4\
+vinicius 11 1.1\
+joao 10 1.0\
+augusto 13 1.3\
+felipe 12 1.2
 
-1.0 3.0 5.0\
-2.0 4.0 6.0\
-7.0 8.0 9.0
+Saída:
+
+joao 10 1.0\
+vinicius 11 1.1\
+felipe 12 1.2\
+augusto 13 1.3
 
 2. Exemplo 2\
 Entrada:
 
 4\
-1.0 2.0 3.0 4.0\
-5.0 6.0 7.0 8.0\
-9.0 0.0 1.0 2.0\
-3.0 4.0 5.0 6.0\
+vinicius 11 1.1\
+joao 11 1.0\
+augusto 11 1.1\
+felipe 11 1.2
+
 
 Saída:
 
-1.0 2.0 3.0 4.0\
-3.0 4.0 5.0 6.0\
-5.0 6.0 7.0 8.0\
-9.0 0.0 1.0 2.0
+joao 11 1.0\
+vinicius 11 1.1\
+augusto 11 1.1\
+felipe 11 1.2
 
-3. Exemplo 3\
-Entrada:
-
-4\
-1.0 2.0 3.0 4.0\
-5.0 6.0 7.0 8.0\
-1.0 -1.0 1.0 2.0\
-3.0 4.0 5.0 6.0\
-
-Saída:
-
-1.0 -1.0 1.0 2.0\
-1.0 2.0 3.0 4.0\
-3.0 4.0 5.0 6.0\
-5.0 6.0 7.0 8.0
 
 
