@@ -1,8 +1,8 @@
-#include <student.h>
+#include "student.h"
 #include <stdio.h>
 
 int main(void)
 {
-  simple_input();
+  student();
   return 0;
 }

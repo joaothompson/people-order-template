@@ -1,6 +1,7 @@
-#include <student.h>
-void simple_input(void) {
-  // TODO: escreva uma expressao para verificar se a string str esta parentisada corretamente.
+#include "student.h"
+
+void student(void) {
+  // TODO: do everything.
   
   return;
 }
